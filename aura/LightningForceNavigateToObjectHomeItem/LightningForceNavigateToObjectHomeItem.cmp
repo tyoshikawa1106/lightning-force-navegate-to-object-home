@@ -1,0 +1,11 @@
+<aura:component >
+    <aura:attribute name="item" type="String" />
+    <aura:attribute name="index" type="Integer" />
+    <tr>
+        <td class="indexCol">{!v.index}</td>
+        <td>{!v.item}</td>
+        <td class="btnCol">
+            <ui:button label="Home" press="{!c.gotoHome}" />
+        </td>
+    </tr>
+</aura:component>
