@@ -1,6 +1,6 @@
 public with sharing class NavigateToObjectHomeDemoController {
 
-	@AuraEnabled
+    @AuraEnabled
     public static List<String> getObjectList() {
     	List<String> objectList = new List<String>();
     	objectList.add('Account');
